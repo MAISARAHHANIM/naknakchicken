@@ -59,6 +59,19 @@ body {
     color:white;
     font-family: Verdana;
   }
+  /* for div arrangement for map */
+  .mycontainer3 {
+    width:100%;
+    overflow:auto;
+  }
+  .mycontainer3 div {
+    width:50%;
+    float:center;
+    align-content : center;
+    
+    color:white;
+    font-family: Verdana;
+  }
   
   /* Centered text */
   .centered {
