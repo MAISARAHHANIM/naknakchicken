@@ -1,0 +1,103 @@
+/* background color */
+body {
+    background-color: green;
+   } 
+  /* for top bar link */
+  
+  div.topbar1 {
+      background-color: orangered;
+      font-family: Verdana;
+  }
+  
+  /* for top menu */
+  div.scrollmenu {
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    font-family: Verdana;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  
+  div.locationinfo {
+    
+    color:rgb(255, 255, 255);
+    font-family: Verdana;
+    
+  }
+  /* for div arrangement */
+  .mycontainer {
+    width:100%;
+    overflow:auto;
+  }
+  .mycontainer div {
+    width:33%;
+    float:left;
+    color:white;
+    font-family: Verdana;
+  }
+  
+  .mycontainer2 {
+    width:100%;
+    overflow:auto;
+  }
+  .mycontainer2 div {
+    width:50%;
+    float:left;
+    align-content : center;
+    
+    color:white;
+    font-family: Verdana;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* text on images below page */
+  
+  .container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .container1 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* for button */
+  
+  .btn {
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Gray */
+  .default {
+    border-color: #e7e7e7;
+    color: white;
+  }
+  
+  .default:hover {
+    background: #e7e7e7;
+  }
